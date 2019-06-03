@@ -1,0 +1,19 @@
+@import '../scaffolding';
+
+.field-insert-note{
+    text-align: center;
+    @media(min-width: $medium-device-width){
+        text-align: left;
+    }
+
+    &__text{
+        margin: 3px;
+        width: 150px;
+        @extend .text;
+    }
+
+    &__insert-note{
+        margin: 3px;
+        @extend .text;
+    }
+}

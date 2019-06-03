@@ -1,0 +1,52 @@
+@import './components/scaffolding.scss';
+
+body{
+  background-color: rgb(214,214,212);
+  text-align: center;
+}
+
+svg {
+  box-sizing: content-box;
+}
+
+.delete-selected-notes{
+  text-align: center;
+  @media(min-width: $medium-device-width){
+    text-align: left;
+    left: 4px;
+  }
+
+  &__button{
+    position: relative;
+    width:150px;
+    font-size: 12px;
+    margin: auto;
+    @media(min-width: $medium-device-width){
+      width: 216px;
+
+    }
+  }
+}
+
+.elements-to-filter{
+  position: relative;
+  top: 6px;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  @media(min-width: $medium-device-width){
+    text-align: right;
+    right: 1px;
+  }
+}
+
+.insert-note{
+  text-align: left;
+}
+
+.filter-text{
+  @media(min-width: $medium-device-width){
+    width: 240px;
+  }
+}
