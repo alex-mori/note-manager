@@ -1,0 +1,48 @@
+@import '../scaffolding';
+
+.customized-btn{
+    color: gray;
+    background-color: rgba(255, 0, 0, 0.2);
+    padding: 3px 10px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.display-notes{
+    position: relative;
+    top: 20px;
+
+    &__item{
+        height: 60px;
+        text-align: left;
+        background-color: #fcfc3b;
+        border-radius: 10px;
+        border: 1px solid black;
+        @media(min-width: $medium-device-width){
+            height: 90px;
+        }
+    }
+
+    &__cmd{
+        float: right; 
+        margin-top: 25px;
+        margin-right: 10px; 
+    }
+
+    &__select-box{
+        width: 5px;
+        height: 5px;
+        border: solid black 1px;
+    }
+
+
+    // &__item{
+        // font-size: 12px;
+        // width: 90%;
+        // height: 60px;
+        // text-align: left;
+    // }
+
+}
+
+

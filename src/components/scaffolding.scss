@@ -1,0 +1,9 @@
+$medium-device-width: 768px;
+$large-device-width: 792px;
+
+.text{
+    font-size: 12px;
+    @media(min-width: $medium-device-width){
+        font-size: 15px;
+    }
+}
