@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.scss';
 
-import InsertNote from './components/insertNote/insertNoteClass';
+import InsertNote from './components/insertNote/insertNote';
 import DisplayNotes from './components/displayNotes/displayNotesFn';
 import FilterTypeSelector from './components/filterTypeSelector/filterTypeSelector';
 
