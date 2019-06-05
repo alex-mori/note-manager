@@ -12,14 +12,13 @@ class InsertNote extends Component {
 
     changeValue(evt){
         this.setState({
-            content: evt.target.value,
-            selected: false
+            content: evt.target.value
         });
     }
 
     sendTask(evt){
         evt.preventDefault();
-        this.props.onSent && this.props.onSent({content: this.state.content, selected: this.state.selected});
+        this.props.onSent && this.props.onSent({content: this.state.content, selected: false});
         this.setState({
             content: ''
         }); 
